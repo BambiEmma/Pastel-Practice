@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #FFDBEE;
+  border: 3px solid;
+  clear: both;
+  height: 100px;
+      width: 100%;
+}
+h1 {
+  float: left;
+  padding: 10px;
+}
+
+#nav-container{
+   float: right;
+}
+.inline {
+  display: inline-block;
+ padding: 25px 50px;
+  font-weight: bold;
+
+  
+}
+
+.inline a {
+   color:grey;
+  text-decoration:none;
+  
+}
+.inline a:hover {
+   color:#93F2FF;
+
+  
+}
+body{
+  font-family: 'Fugaz One',helvetica ;
+  color: grey;
+  background-color:#DDCCFF;
+  
+}
+.clouds{
+  height:150px;
+  overflow:hidden;
+  background-image: url("https://static.tumblr.com/8cf1818e6600aeb00fffbed4cd208e0e/04dga4z/VGhnrbeek/tumblr_static_filename_640_v2.jpg");
+  background-repeat:no-repeat;
+  width:100%;
+  background-size:cover;
+  border:3px solid;
+  
+}
+.aside{
+  float: right;
+  border: 3px solid;
+  width: 200px;
+  text-align: center;
+  background-color:#BDEFC9;    
+}
+
+#donut{
+  border: 3px solid;
+}
